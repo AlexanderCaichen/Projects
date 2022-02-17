@@ -1,0 +1,5 @@
+How to start website:
+
+1. Compile files using provided "library/"
+2. Run bearmaps/MapServer.java
+3. Enter `localhost:4567` in your local browser

@@ -21,16 +21,16 @@ public class Constants {
     public static final double ROOT_ULLAT = 37.892195547244356, ROOT_ULLON = -122.2998046875,
             ROOT_LRLAT = 37.82280243352756, ROOT_LRLON = -122.2119140625;
 
-    public static final String BASE_DIR_PATH = "../library-su20/";
+    public static final String BASE_DIR_PATH = "library/";
 
     /**
      * The OSM XML file path. Downloaded from <a href="http://download.bbbike.org/osm/">here</a>
      * using custom region selection.
      **/
-    public static final String OSM_DB_PATH = BASE_DIR_PATH + "data/proj3_xml/berkeley-2020.osm.xml";
+    public static final String OSM_DB_PATH = BASE_DIR_PATH + "xml/berkeley-2020.osm.xml";
 
     /** The tile images are in the IMG_ROOT folder. */
-    public static final String IMG_ROOT = BASE_DIR_PATH + "data/proj3_imgs/";
+    public static final String IMG_ROOT = BASE_DIR_PATH + "imgs/";
 
     /** Route stroke information: Cyan with half transparency. */
     public static final Color ROUTE_STROKE_COLOR = new Color(108, 181, 230, 200);
