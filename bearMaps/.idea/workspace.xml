@@ -25,74 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d220861-4480-4742-b564-9bef22e29a33" name="Default Changelist" comment="Back to most recent version">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/library.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/algs4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bearmaps/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bearmaps/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/.idea/libraries/algs4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/AugmentedStreetMapGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/MapServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/MapServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/Router$NavigationDirection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/Router.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/APIRouteHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/APIRouteHandlerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/impl/ClearRouteAPIHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/impl/RasterAPIHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/impl/RedirectAPIHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/impl/RoutingAPIHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/server/handler/impl/SearchAPIHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/test/TestDirections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/test/TestRasterAPIHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/test/TestRouter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/test/TestRouterTiny.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/Tuple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/AStarGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/AStarSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/LazySolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/ShortestPathsSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/SolverOutcome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/WeightedEdge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/streetmap/GraphBuildingHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/streetmap/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/graph/streetmap/StreetMapGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/MinHeapPQ$PriorityItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/MinHeapPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/MinHeapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/NaiveMinPQ$PriorityNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/NaiveMinPQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/pq/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/ps/KDTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/ps/KDTreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/ps/MinHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/ps/NaivePointSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/ps/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/bearmaps/utils/ps/PointSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/page/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/page/marker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/page/round_marker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/page/scripts/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/page/styles/map.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/proj3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/simple/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/simple/test1234.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/simple/testTwelveImages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/page/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/page/marker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/page/round_marker.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/page/scripts/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/page/styles/map.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/simple/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/simple/test1234.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proj3/static/simple/testTwelveImages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proj3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proj3.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
