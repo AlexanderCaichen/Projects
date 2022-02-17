@@ -1,0 +1,58 @@
+Classes:
+Main: where methods are run
+Fields: 
+public static void main(String[] args): (run methods of Repository based on inputs)
+static String currbranch: the current branch you are on
+static HashMap<String, String> branch: a record of <branch name, head commit's sha1 for branch>
+static HashMap<String, String> adds: a record of the staged files. <file name, sha1/name of blob corresponding to added>
+static HashMap<String, String> adds2: tracks files that have been modified since previous commit then added
+static HashSet<String> removed: tracks what files have been removed since previous commit
+
+Repository: class containing all run methods
+Fields: 
+static void init(): initializes repository
+static void add(String file): stages file to be added
+static void commit(String message, String merge): creates a new commit. If merge != null, it is also a merge commit
+static void rm(String filename): removes the file if tracked by most recent commit. Otherwise just remove it from being staged.
+static void checkout1(String filename): "resets" the file to its version in the most recent commit
+static void checkout2(String commitID, String[] filenames): resets all listed files in the 2nd input as versions mentioned in the inputted commit
+static void checkout3(String branchee): move to the mentioned branch. 
+static void log(): print out all the logs of commits starting from the current head commit then going back
+static void globallog(): print out all logs of all commits
+static void find(String commitmessage): finds commit(s) with that message
+static void status(): prints the current branches, files added, removed, etc.
+static void branch(String name): create a new branch if it doesn't exist
+static void rmbranch(String name): remove a branch if you are not on the branch
+static void reset(String commitid): replaces the files with versions in the given commit
+static void merge(String mergebranch): merges two commits together. Head branch remains the same.
+private static String commitFromshort(String commitID): obtains the full SHA1 of an existing commit given the input. 
+private static void mergeblob(String file, String mergeblob): replaces the contents of a file with what happens when a merge error occurs.
+ private static void replace(String file, String blob): replaces the contents of a file with the given blob file
+
+Commit: a class storing data about the commit (time commit is created, files saved, branch the commit is part of, is the commit a "splitpoint"
+Fields: (All are public)
+Commit(String message, Date time, Commit prev): creates a commit object using the given inputs
+void setup2(HashMap<String, String> added, String branch, String merge): fills in the rest of the information for the commit including what files are monitored and if it is a merge commit.
+void Setname(): sets the name of the commit as its sha1 code
+void printlog(): prints the log message for the 
+String message(): a getter method to get the message for the commit
+String name(): a getter method to get the name of the commit
+void split(String branch): marks the commit as a "splitpoint" 
+HashMap<String, String> files(): returns the files being saved by the commit
+LinkedList<String> split(): returns the list of branches that split off from this commit
+
+Persistence (Structure)
+CWD
+	.gitlet: repository 
+		blobs: folder containing versions of files
+		commits: folder containing commit files
+		added: file containing hashmap of added files/files being tracked
+		branch: file containing hashmap of branches and corresponding head commits
+		head.txt: file containing name of current branch
+		removed: file containing hashset of removed files
+
+
+
+
+
+
