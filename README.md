@@ -1,4 +1,4 @@
-﻿# Projects
+# Projects
 Various projects
 
 RISC-V CPU:
@@ -20,3 +20,6 @@ Functions that allow one to perform arithmetic operations quickly between multip
 
 Encoder:
 A python program that allows one to encrypt a string into several variations of the Caesar Cipher and decrypt the string.
+
+MutationGame:
+A small python-based text game where the player attempts to match a rapidly changing sequence of characters.
