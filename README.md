@@ -23,3 +23,6 @@ A python program that allows one to encrypt a string into several variations of 
 
 MutationGame:
 A small python-based text game where the player attempts to match a rapidly changing sequence of characters.
+
+Dungeon Royale Documentation:
+A record of work done for an indie multiplayer game called Dungeon Royale.  
